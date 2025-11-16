@@ -6,3 +6,12 @@ here i am updating this
 it is successful done
  
 final touch
+mport java.lang.*;
+
+class DataSizeRange
+{
+    public static void main(String arg[])
+    {
+      
+    }
+}
