@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The great Indian Food Festival</title>
+    <style>
+      body {
+        background-color: #b9b9b9;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        
+      }
+      h1 {
+        color: #d32f2f;
+      }
+      .Event {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-y: auto;
+        border: 1px solid black;
+      }
+      form {
+        background-color: #6ddb85;
+        padding: 20px;
+        border-radius: 10px;
+        width: 300px;
+        margin: auto ;
+        
+        
+        
+      }
+      button{
+       background-color: #ff7043;
+        color: white;
+        border: none;
+        padding: 10px 10px;
+        transform: 0.3s;
+        cursor: pointer;
+         }
+         button:hover {
+        background-color: #e64a19;
+        transform: scale(1.1);
+      }
+      img {
+       
+        margin: 5px 010px ;
+        float: right;
+      }
+      #eve{
+        background-color: #d32f2f;
+      }
+      .even{
+        background-color: #229e4b;
+        border: 2px dotted white;
+      }
+      
+    </style>
+</head>
+<body>
+    
+    <h1>Welcome to The Great Indian New Launch Vehical </h1>
+    <p>
+      The automotive landscape is poised for a significant transformation with the highly anticipated introduction of the<br> [Name of New Vehicle/Platform, e.g., 'Project Horizon' or 'Tata Sierra EV'] program. 
+      This new initiative is set to redefine consumer expectations by leveraging cutting-edge technology and innovative design to deliver a superior driving experience.<br>
+       Focused on [mention a specific goal, e.g., sustainable mobility, performance, or next-generation safety], the program represents a bold strategic leap forward, promising a new era of personal transport that is both thrilling and responsible.
+    </p>
+    <h2 id="eve">Event Details</h2>
+    <!-- Event happening in India Goa -->
+    <div class="even" >
+      <li><strong>Date:</strong> December 19-28, 2025</li><br>
+      <li><strong>Location:</strong> Panaji, Goa, India</li><br>
+      <li><strong>Time:</strong> 10:00 AM - 10:00 PM</li>
+    </div>
+    <!-- Setting the stalls -->
+    <h2>Car Stalls</h2>
+    <section  class="Event">
+        
+      <h3>1. XUV-7OO</h3>
+      <img src="C:\Users\Dell\Downloads\XUV-7OO.jpg" alt="XUV-7OO" />
+      <p>
+        The upcoming Mahindra XUV700 facelift (possibly named XUV 7XO) brings design updates like new LED lights
+      </p>
+      <!-- <img src="C:\Users\Dell\Downloads\XUV-7OO.jpg" alt="XUV-7OO" height="300px" width="300px"/> -->
+    </section><br><br>
+    <section class="Event">
+      <h3>2. XUV-3XO</h3>
+      <p>
+        The Mahindra XUV 3XO (formerly XUV300) brings major updates with a new design,
+      </p>
+      <img src="C:\Users\Dell\Downloads\3X0.jpg" alt="3XO"  />
+    </section><br><br>
+    <section class="Event">
+      <h3>3. Tata Sierra</h3>
+      <p>
+        The new Tata Sierra brings futuristic features like a triple-screen setup (driver display, infotainment, passenger screen),<br>
+      </p>
+      <img src="C:\Users\Dell\Downloads\Tata Sierra.jpeg" alt="Tata Sierra" />
+    </section><br><br>
+    <section class="Event" >
+      <h3>4. Kia Seltos</h3>
+      <p>
+        Your favorite Seltos has got your back. More features. 
+        Better performance New Kia-Seltos.
+      </p>
+      <img src="C:\Users\Dell\Downloads\Seltos.jpg"alt="Kia Seltos" />
+    </section><br><br>
+  
+ 
+<section>
+    <form>
+      <h2>Book Your Tickets Now!</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+      <label>Region:</label>
+      <select id="region" name="region" required>
+        <option value="">Select Region</option>
+        <option value="north">North India</option>
+        <option value="south" selected>South India</option>
+        <option value="east">East India</option>
+        <option value="west">West India</option>
+        <option value="central">Central India</option></select
+      ><br /><br />
+      <label for="tickets">Number of Tickets:</label>
+      <input
+        type="number"
+        id="tickets"
+        name="tickets"
+        min="1"
+        max="10"
+        required
+      /><br /><br />
+      <button type="submit">Book Tickets</button>
+    </form>
+</section><br>
+<img src="C:\Users\Dell\Downloads\Seltos.jpg"alt="Kia Seltos" />
+</body>
+</html>
